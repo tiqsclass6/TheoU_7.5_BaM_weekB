@@ -28,6 +28,7 @@ The workflow emphasizes:
 04132026_WEEKB_HW/
 ├── git-screenshots/
 |   ├── git-banner.png
+|   ├── GIT.md 
 |   ├── killercoda-git-overview.jpg
 |   ├── lesson1.jpg
 |   ├── lesson2-pt1.jpg
@@ -54,16 +55,61 @@ The workflow emphasizes:
 |   ├── lesson13-pt2.jpg
 |   ├── lesson13-pt3.jpg
 |   ├── lesson14-pt1.jpg
-|   ├── lesson14-pt2.jpg
-|   └── README.md
+|   └── lesson14-pt2.jpg
 |
 ├── images/
+|   ├──date-hostname-whoami.jpg
+|   ├── deliverable1.jpg
+|   ├── deliverable2.jpg
+|   ├── deliverable3.jpg
+|   ├── github-cli-commands.jpg
+|   ├── github-create-repository.jpg
+|   ├── github-new-repository.jpg
+|   ├── terraform-apply.jpg
+|   ├── terraform-destroy-pt1.jpg
+|   ├── terraform-destroy-pt2.jpg
+|   ├── terraform-init-fmt-validate.jpg
+|   ├── terraform-plan-pt1.jpg
+|   ├── terraform-plan-pt2.jpg
+|   ├── terraform-show-weekb-pt1.jpg
+|   ├── terraform-show-weekb-pt2.jpg
+|   ├── weekb.json
+|   └── weekb.txt
+|
 ├── linux-screenshots/
+|   ├── killercoda-linux-overview.jpg
+|   ├── Lesson1-q1q2.jpg
+|   ├── Lesson1-q3q4.jpg
+|   ├── Lesson1-q5.jpg
+|   ├── Lesson1-q6q7.jpg
+|   ├── Lesson1-q8q9.jpg
+|   ├── Lesson2.jpg
+|   ├── Lesson3-q1q5.jpg
+|   ├── Lesson3-q6q8.jpg
+|   ├── Lesson3-q9.jpg
+|   ├── Lesson4.jpg
+|   ├── Lesson5-q1q3.jpg
+|   ├── Lesson5-q4.jpg
+|   ├── Lesson5-q5.jpg
+|   ├── Lesson6-q1.jpg
+|   ├── Lesson6-q2.jpg
+|   ├── Lesson6-q3.jpg
+|   ├── Lesson7-pt1.jpg
+|   ├── Lesson7-pt2.jpg
+|   ├── Lesson7-pt3.jpg
+|   ├── Lesson7-pt4.jpg
+|   ├── Lesson7-pt5.jpg
+|   ├── Lesson7-pt6.jpg
+|   ├── Lesson8.jpg
+|   ├── Lesson9.jpg
+|   ├── Lesson10.jpg
+|   ├── linux-banner.png
+|   └── LINUX.md
+|
+├── .gitignore
 ├── 0-authentication.tf
 ├── 1-backend.tf
 ├── 2-vpc.tf
-├── A-GIT.md
-├── B-LINUX.md
 └── README.md
 ```
 
@@ -142,12 +188,14 @@ git add .
 git commit -m "initial commit"
 ```
 
+![git-commands-pt1.jpg](images/git-commands-pt1.jpg)
+
 ### 8. **Connect to GitHub Repository**
 
 > ⚠️ Repository naming requirement:
 
-```bash
-TheoU_7.5_BaM_weekB_<yourIdentifier>
+```text
+TheoU_7.5_BaM_weekB
 ```
 
 ```bash
@@ -156,12 +204,14 @@ git branch -M main
 git push -u origin main
 ```
 
+![git-commands-pt2.jpg](images/git-commands-pt2.jpg)
+
 ---
 
 ## 📸 **Required Deliverables**
 
-- 📂 [**GIT Screenshots (Markdown)**](A-GIT.md)
-- 📂 [**LINUX Screenshots (Markdown)**](B-LINUX.md)
+- 📂 [**GIT Screenshots (Markdown)**](/git-screenshots/GIT.md)
+- 📂 [**LINUX Screenshots (Markdown)**](linux-screenshots/LINUX.md)
 - 📝 [**View WeekB (TXT Format)**](/images/weekb.txt)
 - 📝 [**View WeekB (JSON Format)**](/images/weekb.json)
 
@@ -178,7 +228,6 @@ git push -u origin main
 | **File moved into folder**             | ✅         |
 | **Git repo initialized**               | ✅         |
 | **Code pushed to GitHub**              | ✅         |
-| **Screenshots captured**               | ✅         |
 
 ---
 
@@ -203,5 +252,5 @@ git push -u origin main
 ## 👥 **Authors**
 
 - **Author:** *T.I.Q.S. DevSecOps*
+  - [**GitHub Profile**](https://github.com/tiqsclass6)
 - **Lab Team Lead:** *John Sweeney*
-- [**GitHub Profile**](https://github.com/tiqsclass6)
